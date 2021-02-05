@@ -5,7 +5,7 @@ This project aims to help you provision a ready-to-use Webstack consisting of Aa
 ![](images/arch-overview.png)
 
 ## Prerequisites
-- [x] Create Kendra Index as per the [steps] (https://docs.aws.amazon.com/kendra/latest/dg/create-index.html)
+- [x] Create Kendra Index as per the [steps](https://docs.aws.amazon.com/kendra/latest/dg/create-index.html)
 - [x] update lambda\kendraQuery.js with kendra index and the region it was created.
 
 ## Set up
