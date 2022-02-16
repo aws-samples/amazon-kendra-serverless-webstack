@@ -11,7 +11,7 @@ export class KendraQueryApiStack extends core.Stack {
     const bucket = new s3.Bucket(this, "KendraQueryAPIStore");
 
     const handler = new lambda.Function(this, "KendraQueryAPIHandler", {
-      runtime: lambda.Runtime.NODEJS_10_X, 
+      runtime: lambda.Runtime.NODEJS_12_X, 
       code: lambda.Code.asset("lambda"),
       handler: "kendraQuery.main"
     });
